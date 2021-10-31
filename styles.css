@@ -2,7 +2,7 @@ body {
   color: #272727;
   display: block;
   font-family: 'Raleway', sans-serif;
-  background-color:white;
+  background-color:rgb(115, 108, 162);
 }
 
 #header {
@@ -24,7 +24,7 @@ body {
 #container {
   max-width: 720px;
   margin: auto;
-  padding: 2em;
+  padding: 80px;
 }
 
 .two-column {
@@ -39,6 +39,7 @@ body {
     flex-direction: column;
   }
   .photo {
+    border-radius: 50%;
     width: 100%;
     object-fit: cover;
   }
@@ -60,7 +61,7 @@ body {
 }
 
 .photo {
-  border-radius: 2px;
+  border-radius: 50%;
 }
 
 .project-container {
